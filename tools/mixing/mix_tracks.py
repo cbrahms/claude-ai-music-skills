@@ -34,6 +34,7 @@ try:
 except ImportError:
     yaml = None  # type: ignore[assignment]
 
+numba: Any
 try:
     import numba
 except ImportError:
